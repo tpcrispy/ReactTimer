@@ -1,4 +1,5 @@
 var React = require('react');
+var Nav = require('Nav');
 
 
 var Main = (props) => {
@@ -6,7 +7,8 @@ var Main = (props) => {
     <div>
       <div>
         <div>
-          <p>Main.js Rendered</p>
+          <Nav/>
+          <p>Main.js Rendered a</p>
           {props.children}
         </div>
       </div>
